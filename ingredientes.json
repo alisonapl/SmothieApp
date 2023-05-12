@@ -1,0 +1,262 @@
+{
+    "data": {
+        "frutas": [
+            {
+                "nombre": "Fresas",
+                "precio": 200,
+                "disponible": true,
+                "foto": "https://libbys.es/wordpress/wp-content/uploads/2018/05/fresas.jpg"
+            },
+            {
+                "nombre": "Mango",
+                "precio": 500,
+                "disponible": true,
+                "foto": "https://eco-fruits.com/wp-content/uploads/2020/03/Artboard-18-570x570.png"
+            },
+            {
+                "nombre": "Papaya",
+                "precio": 350,
+                "disponible": false,
+                "foto": "https://exoticfruitbox.com/wp-content/uploads/2015/10/papaya-3-Exotic.jpg"
+            },
+            {
+                "nombre": "Bananos",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://d1cft8rz0k7w99.cloudfront.net/n/0/d/d/3/0dd398ed39761ff8e0350025e7656ea46414a029_Banana.jpg"
+            },
+            {
+                "nombre": "Mandarinas",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://elpoderdelconsumidor.org/wp-content/uploads/2016/11/mandarina.jpg"
+            },
+            {
+                "nombre": "Moras",
+                "precio": 300,
+                "disponible": false,
+                "foto": "https://biotrendies.com/wp-content/uploads/2015/06/moras-1200x900.jpg"
+            },
+            {
+                "nombre": "Naranjas",
+                "precio": 500,
+                "disponible": true,
+                "foto": "https://walmartcr.vtexassets.com/arquivos/ids/283248/Naranja-Importada-Kg-4-A-5-Unidades-Por-Kg-Aproximadamente-1-31773.jpg?v=637795426116100000"
+            },
+            {
+                "nombre": "Limones",
+                "precio": 250,
+                "disponible": true,
+                "foto": "https://www.naranjasvalentina.com/wp-content/uploads/2017/11/categoria-limones-web.jpg"
+            },
+            {
+                "nombre": "Sandia",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://walmartcr.vtexassets.com/arquivos/ids/221384/Sandia-Kg-2-A-5-Kg-Por-Sandia-Aproximadamente-1-26194.jpg?v=637626827062130000"
+            },
+            {
+                "nombre": "Piña",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Coco",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche regular",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche alemedra",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            }
+        ],
+        "verduras": [
+            {
+                "nombre": "Pepino",
+                "precio": 200,
+                "disponible": true,
+                "foto": "https://libbys.es/wordpress/wp-content/uploads/2018/05/fresas.jpg"
+            },
+            {
+                "nombre": "Zanahoria",
+                "precio": 500,
+                "disponible": true,
+                "foto": "https://eco-fruits.com/wp-content/uploads/2020/03/Artboard-18-570x570.png"
+            },
+            {
+                "nombre": "Kale",
+                "precio": 350,
+                "disponible": false,
+                "foto": "https://exoticfruitbox.com/wp-content/uploads/2015/10/papaya-3-Exotic.jpg"
+            },
+            {
+                "nombre": "Bananos",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://d1cft8rz0k7w99.cloudfront.net/n/0/d/d/3/0dd398ed39761ff8e0350025e7656ea46414a029_Banana.jpg"
+            },
+            {
+                "nombre": "Mandarinas",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://elpoderdelconsumidor.org/wp-content/uploads/2016/11/mandarina.jpg"
+            },
+            {
+                "nombre": "Moras",
+                "precio": 300,
+                "disponible": false,
+                "foto": "https://biotrendies.com/wp-content/uploads/2015/06/moras-1200x900.jpg"
+            },
+            {
+                "nombre": "Naranjas",
+                "precio": 500,
+                "disponible": true,
+                "foto": "https://walmartcr.vtexassets.com/arquivos/ids/283248/Naranja-Importada-Kg-4-A-5-Unidades-Por-Kg-Aproximadamente-1-31773.jpg?v=637795426116100000"
+            },
+            {
+                "nombre": "Limones",
+                "precio": 250,
+                "disponible": true,
+                "foto": "https://www.naranjasvalentina.com/wp-content/uploads/2017/11/categoria-limones-web.jpg"
+            },
+            {
+                "nombre": "Sandia",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://walmartcr.vtexassets.com/arquivos/ids/221384/Sandia-Kg-2-A-5-Kg-Por-Sandia-Aproximadamente-1-26194.jpg?v=637626827062130000"
+            },
+            {
+                "nombre": "Piña",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Coco",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche regular",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche alemedra",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            }
+        ],
+        "toppings": [
+            {
+                "nombre": "Chocolate",
+                "precio": 200,
+                "disponible": true,
+                "foto": "https://libbys.es/wordpress/wp-content/uploads/2018/05/fresas.jpg"
+            },
+            {
+                "nombre": "Mango",
+                "precio": 500,
+                "disponible": true,
+                "foto": "https://eco-fruits.com/wp-content/uploads/2020/03/Artboard-18-570x570.png"
+            },
+            {
+                "nombre": "Papaya",
+                "precio": 350,
+                "disponible": false,
+                "foto": "https://exoticfruitbox.com/wp-content/uploads/2015/10/papaya-3-Exotic.jpg"
+            },
+            {
+                "nombre": "Bananos",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://d1cft8rz0k7w99.cloudfront.net/n/0/d/d/3/0dd398ed39761ff8e0350025e7656ea46414a029_Banana.jpg"
+            },
+            {
+                "nombre": "Mandarinas",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://elpoderdelconsumidor.org/wp-content/uploads/2016/11/mandarina.jpg"
+            },
+            {
+                "nombre": "Moras",
+                "precio": 300,
+                "disponible": false,
+                "foto": "https://biotrendies.com/wp-content/uploads/2015/06/moras-1200x900.jpg"
+            },
+            {
+                "nombre": "Naranjas",
+                "precio": 500,
+                "disponible": true,
+                "foto": "https://walmartcr.vtexassets.com/arquivos/ids/283248/Naranja-Importada-Kg-4-A-5-Unidades-Por-Kg-Aproximadamente-1-31773.jpg?v=637795426116100000"
+            },
+            {
+                "nombre": "Limones",
+                "precio": 250,
+                "disponible": true,
+                "foto": "https://www.naranjasvalentina.com/wp-content/uploads/2017/11/categoria-limones-web.jpg"
+            },
+            {
+                "nombre": "Sandia",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://walmartcr.vtexassets.com/arquivos/ids/221384/Sandia-Kg-2-A-5-Kg-Por-Sandia-Aproximadamente-1-26194.jpg?v=637626827062130000"
+            },
+            {
+                "nombre": "Piña",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Coco",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche regular",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            },
+            {
+                "nombre": "Leche alemedra",
+                "precio": 300,
+                "disponible": true,
+                "foto": "https://danzadefogones.com/wp-content/uploads/2021/02/leche-de-coco-1.jpg"
+            }
+        ]
+    }
+}
