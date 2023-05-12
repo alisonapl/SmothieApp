@@ -8,7 +8,7 @@
 /* Selects the root element of the document:
    <html> in the case of HTML */
 :root {
-    background: #e9f0e9;
+    background: #f9f1f1;
     --header_height: 150px;
 
 }
@@ -17,7 +17,8 @@
 .main_title {
     padding: 10px;
     text-align: center;
-    color: #000;
+    color: #d35252;
+    font-style: bold;
 }
 
 .main_subtitle {
@@ -48,7 +49,7 @@
 .ingrediente_container {
     display: flex;
     flex-direction: row;
-    background-color: #e7e7c3;
+    background-color: #e7c3d6;
     margin-top: 5px;
     width: 100%;
     padding: 5px;
@@ -102,29 +103,38 @@
 }
 
 .fruta_disponible_no {
-    color: #ae4040;
+    color: #d35252;
 }
 
 .frutas_agregarBtn {
     width: 90%;
     border: none;
-    background-color: #ae4040;
+    background-color: #d35252;
     height: 30px;
     border-radius: 5px;
-    color: white;
+    color: #f9f1f1;
     cursor: pointer;
+}
+
+.frutas_agregarBtn:hover {
+    color: #dc1169;
 }
 
 .fruta_menuBtn {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #ae4040;
-    color: white;
+    background-color: #d35252;
+    color: #f9f1f1;
+}
+
+.frutas_menuBtn:hover {
+    background-color: #dc1169;
+    transition: all 0.5s ease;
 }
 
 .frutas_agregarBtn_disabled {
-    background-color: rgb(122, 122, 122);
+    background-color: #89627c;
 }
 
 .buttons_container {
