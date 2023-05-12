@@ -9,7 +9,7 @@ export class IngredienteComponent {
 
         var foto = document.createElement("div");
         container.appendChild(foto);
-        foto.className = "fruta_foto_container";
+        foto.className = "ingrediente_foto_container";
 
         var img = document.createElement("img");
         foto.appendChild(img);
