@@ -117,7 +117,8 @@
 }
 
 .frutas_agregarBtn:hover {
-    color: #dc1169;
+    background-color: #dc1169;
+    transition: all 0.5s ease;
 }
 
 .fruta_menuBtn {
@@ -129,7 +130,8 @@
 }
 
 .frutas_menuBtn:hover {
-    background-color: #dc1169;
+    background-color: #f9f1f1;
+    color: #dc1169;
     transition: all 0.5s ease;
 }
 
