@@ -5,7 +5,7 @@ export class IngredienteComponent {
         this.contador = contador;
         var container = document.createElement("div");
         frutasContainer.appendChild(container);
-        container.className = "fruta_container";
+        container.className = "ingrediente_container";
 
         var foto = document.createElement("div");
         container.appendChild(foto);
