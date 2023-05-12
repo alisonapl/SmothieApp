@@ -8,6 +8,10 @@ function init() {
 	const TOPPINGS = 3;
 	var tipoDeListaActual = FRUTAS;
 
+
+
+
+
 	var mainSubTitle = document.getElementById('mainSubTitle');
 	var frutasContainer = document.getElementById('frutas_container');
 	var frustasBtn = document.getElementById('frustasBtn');
