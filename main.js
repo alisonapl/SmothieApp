@@ -25,19 +25,31 @@ function init() {
 	toppingsBtn.onclick = onToppingsBtn;
 	resetBtn.onclick = onResetBtn;
 
+	if (window.localStorage.getItem('ingredientes')) {
+		ingredientesSeleccionados = JSON.parse(window.localStorage.getItem('ingredientes'));
+		updateTotalUI();
+	}
+
 	function mostrarIngredientesPorTipo() {
 
 		var ingredientes = [];
 
+		frustasBtn.classList.remove("fruta_menuBtn_seleccionada");
+		verdurasBtn.classList.remove("fruta_menuBtn_seleccionada");
+		toppingsBtn.classList.remove("fruta_menuBtn_seleccionada");
+
 		switch (tipoDeListaActual) {
 			case FRUTAS:
 				ingredientes = data.frutas;
+				frustasBtn.classList.add("fruta_menuBtn_seleccionada");
 				break;
 			case VERDURAS:
 				ingredientes = data.verduras;
+				verdurasBtn.classList.add("fruta_menuBtn_seleccionada");
 				break;
 			case TOPPINGS:
 				ingredientes = data.toppings;
+				toppingsBtn.classList.add("fruta_menuBtn_seleccionada");
 				break;
 			default:
 				break;
@@ -65,7 +77,12 @@ function init() {
 
 	function agregarIngrediente(ingrediente) {
 		ingredientesSeleccionados.push(ingrediente);
+		window.localStorage.setItem('ingredientes', JSON.stringify(ingredientesSeleccionados));
 		console.log(ingredientesSeleccionados);
+		updateTotalUI();
+	}
+
+	function updateTotalUI() {
 		var total = 0;
 		for (let index = 0; index < ingredientesSeleccionados.length; index++) {
 			const fruta = ingredientesSeleccionados[index];
@@ -94,6 +111,7 @@ function init() {
 		ingredientesSeleccionados = [];
 		mainSubTitle.innerHTML = "Smoothie Price: 0";
 		mostrarIngredientesPorTipo();
+		window.localStorage.removeItem('ingredientes');
 	}
 
 	function contarIngredientesPorNombre(nombre) {

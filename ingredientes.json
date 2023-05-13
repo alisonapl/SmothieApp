@@ -73,19 +73,19 @@
                 "nombre": "Pepino",
                 "precio": 200,
                 "disponible": true,
-                "foto": "https://libbys.es/wordpress/wp-content/uploads/2018/05/fresas.jpg"
+                "foto": "https://www.primerahora.com/resizer/nwv4v7ezed5FFJBK7p65birLiEk=/2560x0/filters:quality(75):format(jpeg):focal(901x528:911x518)/cloudfront-us-east-1.images.arcpublishing.com/gfrmedia/ZTKDZTKPYFCENA4XC7ZJ2TGVBM.jpg"
             },
             {
                 "nombre": "Zanahoria",
                 "precio": 500,
                 "disponible": true,
-                "foto": "https://eco-fruits.com/wp-content/uploads/2020/03/Artboard-18-570x570.png"
+                "foto": "https://lamisticanza.com/wp-content/uploads/2020/04/zanahoria-2.jpg"
             },
             {
                 "nombre": "Kale",
                 "precio": 350,
                 "disponible": false,
-                "foto": "https://exoticfruitbox.com/wp-content/uploads/2015/10/papaya-3-Exotic.jpg"
+                "foto": "https://images.heb.com/is/image/HEBGrocery/000320214-1"
             },
             {
                 "nombre": "Espinaca",

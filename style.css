@@ -58,6 +58,7 @@
 
 .ingrediente_foto_container {
     width: 20%;
+    margin-left: 5px;
 }
 
 .fruta_foto {
@@ -127,12 +128,21 @@
     border-radius: 5px;
     background-color: #d35252;
     color: #f9f1f1;
+    width: 24%;
 }
 
-.frutas_menuBtn:hover {
-    background-color: #f9f1f1;
-    color: #dc1169;
-    transition: all 0.5s ease;
+.fruta_borrarBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #89627c;
+    color: #f9f1f1;
+    width: 24%;
+}
+
+.fruta_menuBtn_seleccionada {
+    background-color: rgb(212, 46, 171);
+
 }
 
 .frutas_agregarBtn_disabled {
