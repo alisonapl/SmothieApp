@@ -89,7 +89,7 @@ function init() {
 			total += fruta.precio;
 		}
 
-		mainSubTitle.innerHTML = "Smoothie Price: " + total;
+		mainSubTitle.innerHTML = "Precio: " + total + " colones";
 	}
 
 	function onFrutasBtn() {
@@ -109,7 +109,7 @@ function init() {
 
 	function onResetBtn() {
 		ingredientesSeleccionados = [];
-		mainSubTitle.innerHTML = "Smoothie Price: 0";
+		mainSubTitle.innerHTML = "Precio: 0";
 		mostrarIngredientesPorTipo();
 		window.localStorage.removeItem('ingredientes');
 	}

@@ -1,30 +1,41 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Montserrat',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.font_script {
+    font-family: 'Meow Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #d62929
 }
 
 /* Selects the root element of the document:
    <html> in the case of HTML */
 :root {
     background: #f9f1f1;
-    --header_height: 150px;
-
+    --header_height: 33%;
 }
 
+.logo {
+    position: fixed;
+    justify-content: center;
+    width: 350px;
+    margin: 2% 2%;
+}
 
 .main_title {
-    padding: 10px;
+    padding: 2%;
     text-align: center;
-    color: #d35252;
+    color: #d62929;
     font-style: bold;
 }
 
 .main_subtitle {
-    padding: 10px;
+    padding: 2%;
     text-align: center;
-    color: #000;
+    color: #181616;
 }
 
 .header_container {
@@ -42,23 +53,32 @@
     align-items: center;
     width: calc(100% - 10px);
     height: calc(100% - var(--header_height));
-    margin-left: 5px;
+    margin: 2%;
     overflow-y: scroll;
 }
 
 .ingrediente_container {
     display: flex;
     flex-direction: row;
-    background-color: #e7c3d6;
-    margin-top: 5px;
-    width: 100%;
-    padding: 5px;
+    background-color: #f5adad;
+    margin-top: 1%;
+    width: 80%;
     border-radius: 5px;
+}
+
+.ingrediente_container:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: #ee8080;
+    margin-top: 1%;
+    width: 82%;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .ingrediente_foto_container {
     width: 20%;
-    margin-left: 5px;
+    margin: 2%;
 }
 
 .fruta_foto {
@@ -70,11 +90,13 @@
     max-height: 80px;
     max-width: 80px;
     border-radius: 5px;
+    margin-left: 5px;
 }
 
 .fruta_textos_container {
     width: 60%;
     padding-left: 10px;
+    margin: 2%;
 }
 
 .fruta_button_container {
@@ -91,12 +113,10 @@
 
 .fruta_precio {
     font-size: 14px;
-
 }
 
 .fruta_disponible {
     font-size: 14px;
-
 }
 
 .fruta_cantidad {
@@ -104,49 +124,183 @@
 }
 
 .fruta_disponible_no {
-    color: #d35252;
+    color: #d62929;
+}
+
+
+/* CSS */
+.button-56 {
+    align-items: center;
+    background-color: #f5adad;
+    border: 2px solid #ee8080;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #f9f1f1;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-56:after {
+    background-color: #ee8080;
+    border-radius: 50px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.button-56:hover:after {
+    transform: translate(0, 0);
+}
+
+.button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.button-56:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+
+    .fruta_menuBtn {
+        padding: 0 40px;
+    }
+
+    .frutas_agregarBtn {
+        padding: 0 40px;
+    }
 }
 
 .frutas_agregarBtn {
-    width: 90%;
-    border: none;
-    background-color: #d35252;
-    height: 30px;
-    border-radius: 5px;
-    color: #f9f1f1;
+    align-items: center;
+    background-color: #d62929;
+    border: 2px solid #ffdeda;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #ffdeda;
     cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.frutas_agregarBtn:after {
+    background-color: #f5adad;
+    border-radius: 50px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.frutas_agregarBtn:hover:after {
+    transform: translate(0, 0);
+}
+
+.frutas_agregarBtn:active {
+    background-color: #ee8080;
+    outline: 0;
 }
 
 .frutas_agregarBtn:hover {
-    background-color: #dc1169;
-    transition: all 0.5s ease;
+    outline: 0;
 }
 
 .fruta_menuBtn {
-    padding: 10px;
+    align-items: center;
+    background-color: #d62929;
     border: none;
-    border-radius: 5px;
-    background-color: #d35252;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #ffdeda;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.fruta_menuBtn:hover {
+    border: none;
+    border-radius: 50px;
+    background-color: #ee8080;
+    font-style: bold;
     color: #f9f1f1;
-    width: 24%;
 }
 
 .fruta_borrarBtn {
     padding: 10px;
     border: none;
-    border-radius: 5px;
-    background-color: #89627c;
+    border-radius: 50px;
+    background-color: #d62929;
+    color: #f9f1f1;
+    width: 24%;
+}
+
+.fruta_hacerBtn {
+    font-style: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #d62929;
     color: #f9f1f1;
     width: 24%;
 }
 
 .fruta_menuBtn_seleccionada {
-    background-color: rgb(212, 46, 171);
+    background-color: #ee8080;
 
 }
 
 .frutas_agregarBtn_disabled {
-    background-color: #89627c;
+    background-color: #d58989;
 }
 
 .buttons_container {
